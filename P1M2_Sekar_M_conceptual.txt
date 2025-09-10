@@ -1,0 +1,15 @@
+1. Latar belakang adanya Bagging dan cara kerjanya
+Bagging (Bootstrap Aggregating) merupakan solusi untuk mengurangi overfitting dan variance pada model machine learning. 
+Teknik ini bekerja dengan membuat beberapa subset data secara bootstrap sampling dimana sampel diambil dari suatu dataset lalu dilakukan pengembalian kembali secara random sebelum diambil sampel lagi. 
+lalu melatih model yang sama pada masing-masing subset. 
+Prediksi dari semua model digabungkan melalui voting (klasifikasi) atau rata-rata (regresi), sehingga hasil akhir menjadi lebih stabil, akurat, dan tidak terlalu dipengaruhi oleh fluktuasi data.
+
+2. Perbedaan cara kerja Random Forest dengan Boosting
+Random Forest adalah algoritma berbasis Bagging yang membangun banyak decision tree secara paralel menggunakan data bootstrap, kemudian hasilnya digabung dengan voting mayoritas. 
+Sementara itu, Boosting (misalnya XGBoost) bekerja secara sekuensial, di mana setiap pohon baru difokuskan untuk memperbaiki kesalahan dari pohon sebelumnya. 
+Random Forest lebih menekankan pada mengurangi variance agar model stabil, sedangkan Boosting fokus pada mengurangi bias agar model lebih akurat, meskipun lebih rawan overfitting jika tidak diatur dengan baik.
+
+3. Apa yang dimaksud dengan Cross Validation
+Cross Validation adalah teknik evaluasi model yang membagi dataset menjadi beberapa lipatan (fold), misalnya 5-fold atau 10-fold, lalu melatih model pada sebagian lipatan dan mengujinya pada lipatan sisanya secara bergantian.
+Proses ini memastikan seluruh data pernah digunakan sebagai data uji, dan performa model dievaluasi dengan rata-rata hasil semua lipatan. 
+Dengan demikian, Cross Validation memberikan gambaran performa yang lebih reliabel, mengurangi bias evaluasi, serta membantu dalam pemilihan model terbaik maupun tuning hyperparameter.
