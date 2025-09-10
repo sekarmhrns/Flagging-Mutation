@@ -1,7 +1,7 @@
 # DNA Mutation Flagging
 
 ## Repository Outline
-`Bagian ini menjelaskan secara singkat konten/isi dari file yang dipush ke repository`
+
 1. READ.md - Penjelasan gambaran umum project
 2. P1M2_Sekar_M.ipynb - Notebook yang berisi project utama, pengolahan data dan modelling.
 3. P1M2_Sekar_M_dataset.csv - File CSV yang berisi dataset murni dari kaggle
@@ -43,12 +43,6 @@ Machine learning menggunakan metode model supervised learning dengan Classificat
 
 
 ## Reference
-
-
----
-
-**Referensi tambahan:**
-- [Basic Writing and Syntax on Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Contoh readme](https://github.com/fahmimnalfrzki/Swift-XRT-Automation)
-- [Another example](https://github.com/sanggusti/final_bangkit) (**Must read**)
-- [Additional reference](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+- [Dataset URL](https://www.kaggle.com/datasets/miadul/dna-classification-dataset?resource=download)
+- [Model URL](https://drive.google.com/drive/folders/1biCosTK5Xu2RMD9XMWfi-HfsaZ18N1RJ?usp=drive_link)
+- [Deployment URL](https://huggingface.co/spaces/sekarmeuw/Flagging_Mutation)
